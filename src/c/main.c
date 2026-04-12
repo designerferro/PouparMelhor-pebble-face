@@ -81,7 +81,7 @@ static void main_window_load(Window *window) {
   GRect bounds = layer_get_bounds(window_layer);
 
   // Create GBitmap
-  s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_SONAR_BG);
+  s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_FACE_BG);
 
 
   // Create BitmapLayer to display the GBitmap
